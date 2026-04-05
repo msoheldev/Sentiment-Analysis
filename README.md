@@ -13,6 +13,7 @@ DURATION: 6 WEEKS
 MENTOR: NEELA SANTOSH
 
 DESCRIPTION:
+
 This project focuses on performing sentiment analysis on customer reviews written in Portuguese using a machine learning approach. The dataset undergoes several preprocessing steps to ensure quality and consistency. Missing values are removed, text is converted to lowercase, and unwanted elements such as special characters, numbers, and punctuation are eliminated. Additionally, Portuguese stopwords are removed, and the text is tokenized to prepare it for feature extraction.
 
 For model implementation, the cleaned text data is transformed into numerical format using TF-IDF (Term Frequency–Inverse Document Frequency), which helps capture the importance of words in the dataset. The data is then split into training (80%) and testing (20%) sets. A Logistic Regression model is applied for classification due to its efficiency and reliability in text-based tasks.
